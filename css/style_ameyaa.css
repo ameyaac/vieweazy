@@ -32,3 +32,59 @@ body::before {
     position: relative;
     bottom: -25px;
 }
+
+/*
+To make images more resizeable add images through css instead of hardcoding it as an
+image tag
+*/
+
+/*by using grids unnecessary gaps can be avoided
+*/
+
+#img-1 {
+    background-image: url(../assets/fireboltt-1349.webp);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#img-2 {
+    background-image: url(../assets/boat-1199.webp);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#img-3 {
+    background-image: url(../assets/fire-boltt-1049.webp);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#img-4 {
+    background-image: url(../assets/casio-8275.webp);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#img-5 {
+    background-image: url(../assets/louisdevin-379.webp);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#img-6 {
+    background-image: url(../assets/sonata-500.webp);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
