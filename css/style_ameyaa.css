@@ -19,7 +19,7 @@ body::before {
 }
 
 #head-image {
-    background-image: url(./assets/watch_banner.jpg);
+    background-image: url(../assets/watch_banner.jpg);
     height: 400px;
     background-position: center;
     background-size: cover;
