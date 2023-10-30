@@ -70,14 +70,15 @@
         <img src="assets/profile_img.avif" alt="profile photo" class="bi-person-circle">
     </div>
     <form>
-        <label for="Name">Id</label>
-        <input type="text-area" placeholder="id">
-        Name:<input type="text-area" placeholder="name">
+        <label for="id">Id</label>
+        <input type="text" id="id" placeholder="id">
+        Name:<input type="text" placeholder="name">
         Email:<input type="email" placeholder="email">
         Password:<input type="password" placeholder="password">
-        Mobile-Number:<input type="text-area" placeholder="mobile-number">
-        Address:<input type="text-area" placeholder="address">
-        Bio:<input type="text-area" placeholder="bio">
+        Mobile-Number:<input type="tel" placeholder="mobile-number">
+        Address:<input type="text-area">
+        Bio:<input type="text-area">
+        <!-- W3C validator says that "text-area" is no longer a proper element -->
         <button type="button" onclick="web(); document.location.href='login.html';">Submit</button>
     </form>
     <!-- <p id="demo"></p> -->
